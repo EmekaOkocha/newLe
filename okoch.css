@@ -1,0 +1,123 @@
+body{
+    background-color:orange;
+    }
+    body .bodyDiv3{
+    width:100%;
+    height:300px;
+    background:transparent;
+    }
+    body .cent{
+        width:50%;
+        height:300px;
+        background:transparent;
+        align-content: center;
+        align-items: center;
+        margin-left: 200px;
+        }
+    body .signUpp{
+        width:100%;
+        height:300px;
+        background-color:green;
+        align-content:right;
+        justify-content:right;
+        }
+    .mainNav{
+    width:100%;
+    height:150px;
+    }
+    .mainNav .menuDiv{
+    align-content:center;
+    background-color:black;
+    justify-content:center;
+    height:50px;
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:10px;
+    }
+    .mainNav .reg{
+    align-content:center;
+    float:right;
+    width:60px;
+    height:20px;
+    }
+    .reg{
+    float:right;
+    }
+    .icon{
+    float:left;
+    width:50px;
+    height:50px;
+    background:transparent;
+    }
+    .icon img{
+    width:100%;
+    height:100%;
+    background:transparent;
+    }
+    ul{
+    justify-content:center;
+    display:flex;
+    }
+    ul li{
+    list-style:none;
+    font-size:20px;
+    font-weight:20px;
+    margin-left:30px;
+    color: white;
+    margin-top:0;
+    }
+    ul li:hover{
+    color: orange;
+    }
+    a{
+    text-decoration: none;
+    }
+    .mainBody{
+    float:right;
+    width:100px;
+    height:100px;
+    margin-top:0;
+    }
+    .regDiv{
+    height:250px;
+    width:200px;
+    float:right;
+    margin-top:0;
+    background-color:orange;
+    
+    }
+    .regbtn{
+    float:right;
+    color:black;
+    background-color:orange;
+    
+    }
+    .imgg{
+    background:transparent;
+    width:1020px;
+    height:300px;
+    }
+    .imgg img{
+    width:30%;
+    height:220px;
+    }
+    .imgg form{
+    float: right;
+    align-items:center;
+    width:30%;
+    height:220px
+    }
+    .bodyDiv2{
+    width:100%;
+    height:300px;
+    background:transparent;
+    margin-top:10px;
+    }
+    .bodyDiv2 h3,p{
+    text-align:center;
+    margin-top:10px;
+    }
+    #timerP {
+    width:30%;
+    height:100px;
+    }
