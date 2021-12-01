@@ -7,39 +7,36 @@
   <body>
 	<div class="mainNav">
 		<div class="icon">
-			<img class="img" src="okochlogo.jpg">
-		</div>
+			<div class="img" onclick="sideM()"></div>
+			<aside id= "as" style="width:50px; height:500px; background-color: black">
+				<ul id="aa">
+					<li>Portfolio</li>
+					<li>Clientele</li>
+					<li>Gallery</li>
+				</ul>
+			</aside>
+			
+		</div><div></div>
 		<div class="menuDiv">
-			<ul>
+			<ul id="ul1">
 				<li>Home</li>
 				<li>About</li>
 				<li>Contact</li>
 			</ul>
-				
+			<ul id="ul2">
+			<li><a href="signin.html"><input type="button" value="Sign in" class="reg"></a></li>
+		</ul>
 		</div>
-			<a href="signUp.html"><input type="button" value="Sign up" class="reg"></a>
-			<input type="button" value="Sign in" class="reg">
+			<br>
+			<h1 style="color:orange" id="timerP" onload="time()" class="reg"></h1>
 	
-		<div class="regDiv">
-			Calculate your body mass index here.<br><br>
-
-			<input type="text" id="bminame" placeholder="YOUR NAME"><br><br>
-			<input type="email" id="bmimail" placeholder="example@email.com"><br><br>
-		<select>
-			<option value="Early youth">select</option>
-			<option value="Early youth">25-45</option>
-			<option value="Mid youth">46-59</option>
-			<option value="Senior citizen">60+</option>
-		</select>
-			Age range<br><br>
-			<input type="radio" name="gender" value="Male">Male
-			<input type="radio" name="gender" value="Female">Female<br><br>
-			<input type="button" value="Calculate" onclick="calculateBmi()" class="regbtn">
-		</div>
+			
+		
 	</div>
+	
 	<div class="imgg">
-			<p id="timerP">Today is:</p><br>
-			<input type="button" value="Update Time" onclick= "tt()">
+			
+			
 			<form>
 			
 			<input type="text" placeholder="FIRSTNAME"><br><br>
@@ -51,24 +48,19 @@
 			<option value="Mid youth">46-59</option>
 			<option value="Senior citizen">60+</option>
 		</select>
-			Age range<br><br>
-			<input type="radio" name="gender" value="Mail">Male
-			<input type="radio" name="gender" value="Mail">Female<br><br>
+		<span style="color: orange">Age range</span><br><br>
+			<input type="radio" name="gender" value="Mail"><span style="color: orange;">Male</span>
+			<input type="radio" name="gender" value="Mail"><span style="color: orange;">Female</span><br><br>
 			<input type="button" value="Sign Up" class="r"></br>	
 			</form>
 	</div>
 	<div class="bodyDiv2">
-		<p>YOU ARE WELCOME!!!<br>
-						
-		<p> Get your website up and
-		 running with easy web designs that make you awesome.
 	</div>
 
 
-    <footer style="background-color:black">
-        <p style="text-align:center;color:orange"> Get your website up and
-		 running with easy web designs that make you awesome.
-    </footer?
+    <footer style="background-color:black; height:100px; margin-bottom:0">
+        <p style="text-align:center;color:orange"> Designs that make you awesome.
+		</footer>
 
   </body>
 

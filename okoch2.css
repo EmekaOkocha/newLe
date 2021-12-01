@@ -4,6 +4,7 @@ body{
     background-image:url(logo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
     color: white;
     
 }
@@ -24,7 +25,7 @@ ul {
     display:flex;
 }
 
-li{
+li {
     list-style: none;
     font-size:20px;
     font-weight:20px;
@@ -32,7 +33,16 @@ li{
     color: white;
     margin-top:0;
 }
+li a{
+    text-decoration: none;
+    color: white;
+    margin-top:0;
+}
+
 li:hover{
+    color: orange;
+}
+li a:hover{
     color: orange;
 }
 .snUpp{
@@ -47,7 +57,7 @@ label{
     color: white;
 }
 input{
-    color: white;
+    color: black;
 }
 a{
     text-decoration: none;
