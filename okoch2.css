@@ -1,7 +1,9 @@
 body{
     align-content: center;
     text-align: center;
-    background-color: orange;
+    background-image:url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
     color: white;
     
 }
@@ -34,18 +36,18 @@ li:hover{
     color: orange;
 }
 .snUpp{
-    width: 50%;
-    height:400px;
-    color: rgb(99, 84, 62);
-    background-color: wheat;
+    width: 40%;
+    height:300px;
+    color: white;
+    background: transparent;
 }
 label{
     width: 120px;
     height:10px;
-    color: black;
+    color: white;
 }
 input{
-    color: black;
+    color: white;
 }
 a{
     text-decoration: none;

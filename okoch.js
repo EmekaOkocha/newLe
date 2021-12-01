@@ -35,6 +35,6 @@ let signUpp = function(){
     }
 
 let CancelB =function(){
+console.log("hello world")
     
-
 }
