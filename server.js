@@ -7,11 +7,14 @@ const url = require("url");
 //console.log("listening...")
 
 function readF(){
-let ff = fille.readFile("names.json",(error)=>{
+/* let ff = fille.readFile("names.json",(error)=>{
     if (error){
+        alert("file not found. kindly check the file name or contact your administrator.")
         console.log(error);
     }
-});
+    alert S("ff");
+});*/
+alertS("ff");
 }
 let apndData = function(){
 let parsIt = JSON.parse(ff);
@@ -19,7 +22,8 @@ let writF = fille.appendFile("names.json", "Mark : 24",(err)=>{
     if(err){
     console.log("error")
     alert("oops! our first error");}
-        else{alert("file written succesfully")}
+        else{alert("file written succesfully");
+    }
 });
 }
 
